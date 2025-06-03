@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="361.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <TextField fx:id="myInputField" layoutX="24.0" layoutY="50.0" prefHeight="35.0" prefWidth="245.0" promptText="Enter your task here...">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Button fx:id="addTask" layoutX="413.0" layoutY="50.0" mnemonicParsing="false" onMouseClicked="#addTaskButton" prefHeight="35.0" prefWidth="72.0" text="Add Task" />
+      <DatePicker fx:id="datePicker" layoutX="285.0" layoutY="50.0" prefHeight="36.0" prefWidth="118.0" promptText="Select Date" />
+      <Label layoutX="235.0" layoutY="14.0" prefHeight="36.0" prefWidth="109.0" text="TODOLIST">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </Label>
+      <ListView fx:id="myListView" layoutX="26.0" layoutY="94.0" prefHeight="36.0" prefWidth="554.0" AnchorPane.bottomAnchor="21.0" AnchorPane.leftAnchor="26.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="94.0" />
+      <Button layoutX="496.0" layoutY="51.0" mnemonicParsing="false" onMouseClicked="#removeItem" prefHeight="35.0" prefWidth="78.0" text="Remove" />
+   </children>
+</AnchorPane>
