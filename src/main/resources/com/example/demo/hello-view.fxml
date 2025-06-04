@@ -15,7 +15,7 @@
             <Font size="16.0" />
          </font>
       </TextField>
-      <Button fx:id="addTask" layoutX="413.0" layoutY="50.0" mnemonicParsing="false" onMouseClicked="#addTaskButton" prefHeight="35.0" prefWidth="72.0" text="Add Task" />
+      <Button fx:id="addTask" layoutX="413.0" layoutY="50.0" mnemonicParsing="false" onMouseClicked="#addTaskButton" prefHeight="35.0" prefWidth="72.0" text="New Task" />
       <DatePicker fx:id="datePicker" layoutX="285.0" layoutY="50.0" prefHeight="36.0" prefWidth="118.0" promptText="Select Date" />
       <Label layoutX="235.0" layoutY="14.0" prefHeight="36.0" prefWidth="109.0" text="TODOLIST">
          <font>
